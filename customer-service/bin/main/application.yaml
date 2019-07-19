@@ -1,0 +1,5 @@
+### self configurations #####
+server:
+  port: 8081
+  servlet:
+    contextPath : /customer-service

@@ -1,0 +1,5 @@
+### self configurations #####
+server:
+  port: 8082
+  servlet:
+    contextPath : /account-service

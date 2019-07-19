@@ -1,0 +1,16 @@
+### self configurations #####
+server:
+  port: 8080
+  
+
+###configuration of other modules
+###context path for customer-service =/customer-service . zuul will route to customer-service
+###context path for account-service =/account-service . zuul will route to  account-service
+zuul:
+  routes:
+    customer-service:
+      path: /customer-service/**
+      url: http://localhost:8081/customer-service
+    account-service:
+      path: /account-service/**
+      url: http://localhost:8082/account-service
