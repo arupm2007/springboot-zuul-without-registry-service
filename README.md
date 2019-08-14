@@ -22,8 +22,6 @@ How to run the sample projects?
     C. The URI of the service is /rest/customer/list.
     D. Call the service by using any of the REST clients, say web browser.       
 
-    
-    
     GET htttp://localhost:8080/customer-service/rest/customer/list
 
     Once a call is made on api-gateway-zuul service , it will check the routing path and forward it to the mapped destination. 
